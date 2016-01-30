@@ -8,14 +8,9 @@
             'ngCookies',
             'ngMaterial',
             'ngMessages',
-            'ngResource',
             'ngSanitize',
-            'ngTouch',
             'ui.router',
             'firebase',
-            'ngColorThief',
-            'angularFileUpload',
-            'ngFileUpload',
-            'dakCart'
+            'ngColorThief'
         ]);
 })();

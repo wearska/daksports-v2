@@ -84,7 +84,7 @@
                 var checkFile = input.replace(/(\.[\w\d_-]+)$/i, '_low$1');
                 var img = new Image();
                 img.src = checkFile;
-                if (img.height != 0){
+                if (img.height !== 0){
                     return input ? input.replace(/(\.[\w\d_-]+)$/i, '_low$1') : input;
                 }else{
                     return input;
@@ -97,7 +97,7 @@
                 var checkFile = input.replace(/(\.[\w\d_-]+)$/i, '_medium$1');
                 var img = new Image();
                 img.src = checkFile;
-                if (img.height != 0){
+                if (img.height !== 0){
                     return input ? input.replace(/(\.[\w\d_-]+)$/i, '_medium$1') : input;
                 }else{
                     return input;
@@ -110,7 +110,7 @@
                 var checkFile = input.replace(/(\.[\w\d_-]+)$/i, '_high$1');
                 var img = new Image();
                 img.src = checkFile;
-                if (img.height != 0){
+                if (img.height !== 0){
                     return input ? input.replace(/(\.[\w\d_-]+)$/i, '_high$1') : input;
                 }else{
                     return input;
